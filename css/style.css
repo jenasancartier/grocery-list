@@ -4,7 +4,9 @@
 
 /*Class Selectors********************/
 
-
+.printList {
+  display: none;
+}
 
 /*Id Selectors***********************/
 
