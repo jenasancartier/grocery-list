@@ -17,10 +17,7 @@ $(document).ready(function(){
 
   groceries.forEach(function(grocery){
     var list = $("input#" + grocery).val();
-    $("ol").append("<li>" + list + "</li>");
+    $("ol").append("<li>" + list.toUpperCase() + "</li>");
   });
-
-
-
   });
 });
